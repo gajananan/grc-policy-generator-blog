@@ -11,3 +11,8 @@ policies:
     manifests:
       - path: app-policy
         complianceType: mustnothave
+  - name: temp
+    - path: app-policy/namespace.yaml
+      patch:
+        metadata:
+          name: monkey
