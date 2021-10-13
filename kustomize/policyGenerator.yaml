@@ -14,6 +14,6 @@ policies:
   - name: temp
     manifests:
       - path: app-policy/namespace.yaml
-        patch:
-          metadata:
-            name: monkey
+        patches:
+          - metadata:
+              name: monkey
