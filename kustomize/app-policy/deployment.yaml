@@ -20,10 +20,7 @@ spec:
         ports:
         - containerPort: 8080
         image: quay.io/centos7/httpd-24-centos7:2.4
-      - name: goproxy-app 
-          args:
-          image: k8s.gcr.io/goproxy:0.1 
-          livenessProbe: 
+        livenessProbe: 
             exec: 
               command: 
               - /bin/bash
