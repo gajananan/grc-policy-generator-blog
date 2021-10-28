@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: policy-generator-blog
+  name: forked-policy-generator-blog
   namespace: openshift-gitops
 spec:
   destination:
