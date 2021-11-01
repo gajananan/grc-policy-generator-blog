@@ -23,6 +23,6 @@ spec:
         livenessProbe: 
           tcpSocket:  
             port: 8080 
-          initialDelaySeconds: 15 
+          initialDelaySeconds: 27 
           periodSeconds: 20 
           timeoutSeconds: 10 
