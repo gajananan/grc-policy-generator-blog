@@ -10,3 +10,6 @@ policies:
   - name: policy-generator-blog-app
     manifests:
       - path: app-policy
+    placement:
+       clusterSelectors:
+         environment: "dev"
