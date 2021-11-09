@@ -1,5 +1,5 @@
 [
 {"op": "add", "path": "/metadata/annotations/argocd.interlace.dev~1signature-resource", "value": "true"},
-{"op": "add", "path": "/metadata/annotations/argocd.interlace.dev~1signature-path", "value": "data/signature"},
-{"op": "add", "path": "/metadata/annotations/argocd.interlace.dev~1message-path", "value": "data/message"}
+{"op": "add", "path": "/metadata/annotations/argocd.interlace.dev~1signature-path", "value": "metadata/annotations/signature"},
+{"op": "add", "path": "/metadata/annotations/argocd.interlace.dev~1message-path", "value": "metadata/annotations/message"}
 ]
