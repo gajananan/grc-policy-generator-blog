@@ -18,7 +18,7 @@ spec:
       containers:
       - name: policy-generator-blog
         ports:
-        - containerPort: 8083
+        - containerPort: 8082
         image: quay.io/centos7/httpd-24-centos7:2.4
         livenessProbe: 
           tcpSocket:  
