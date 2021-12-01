@@ -1,5 +1,8 @@
 generators:
   - policyGenerator.yaml
 commonAnnotations:
-  argocd.argoproj.io/compare-options: IgnoreExtraneousXy
-
+  argocd.argoproj.io/compare-options: IgnoreExtraneous
+patches:
+     - path: add-annotation.patch.json
+       target:
+         kind: Policy
