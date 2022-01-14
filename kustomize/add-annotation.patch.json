@@ -1,4 +1,3 @@
 [
-{"op": "add", "path": "/metadata/annotations/argocd.interlace.dev~1signature-resource", "value": "true"},
-{"op": "add", "path": "/metadata/annotations/argocd.interlace.dev~1message-compress", "value": "true"}
+{"op": "add", "path": "/metadata/labels/integrityshield.io.~1signatureResource", "value": "true"}
 ]
